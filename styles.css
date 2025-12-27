@@ -1,18 +1,42 @@
 *{
     box-sizing: border-box;
     margin: 0px;
+    padding: 0px;
 }
-.container{
+
+body{
     height: 100vh;
     display: flex;
 }
+
+.logo{
+    flex: 1;
+    height: 4em;
+    display: flex;
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, .452);
+    justify-content: center;
+    align-items: center;
+}
+
 .left-side{
     width: 40%;
     background-image: url(photos/leaf-background.avif);
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .right-side{
     width: 60%;
     background-color: orange;
+}
+
+.logo-text{
+    color: white;
+}
+
+.odin-logo{
+    height: 3em;
 }
