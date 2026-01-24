@@ -9,16 +9,6 @@ body{
     display: flex;
 }
 
-.logo{
-    flex: 1;
-    height: 4em;
-    display: flex;
-    font-size: 2em;
-    background-color: rgba(0, 0, 0, .452);
-    justify-content: center;
-    align-items: center;
-}
-
 .left-side{
     width: 40%;
     background-image: url(photos/leaf-background.avif);
@@ -39,4 +29,14 @@ body{
 
 .odin-logo{
     height: 3em;
+}
+
+.logo{
+    flex: 1;
+    height: 4em;
+    display: flex;
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, .452);
+    justify-content: center;
+    align-items: center;
 }
