@@ -20,7 +20,20 @@ body{
 
 .right-side{
     width: 60%;
-    background-color: orange;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info, .footer{
+    height: 40%;
+    width: 100%;
+    background-color: lightgray;
+    flex: 1;
+}
+
+.sign-up{
+    height: 20%;
 }
 
 .logo-text{
