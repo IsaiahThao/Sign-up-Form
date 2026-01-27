@@ -27,11 +27,11 @@ body{
 
 .header, .footer{
     width: 100%;
-    background-color: lightgray;
+    background-color: #e5e7ebca;
     flex: 1;
 }
 .header{
-    align-items: center;
+    align-items: flex-end;
     font-size: 1.5em;
     padding: 1.5em;
 }
@@ -102,4 +102,25 @@ input {
 }
 .container h1{
     margin-bottom: 20px;
+}
+
+button{
+    padding: 10px 40px;
+    margin: 20px;
+    background-color: #596D48;
+    border-radius: 6px;
+    color: white;
+    border-style: none;
+}
+
+a{
+    color: #596D48;
+}
+
+.footer-text{
+    margin: 20px;
+}
+
+input:invalid{
+    border-color: red;
 }
